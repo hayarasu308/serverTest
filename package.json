@@ -1,0 +1,40 @@
+{
+  "name": "iwara",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "./node_modules/.bin/webpack",
+    "start": "node app.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio-httpcli": "^0.7.3",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "express-react-views": "^0.10.5",
+    "http-errors": "~1.6.2",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.0",
+    "pg": "^7.5.0",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "redux": "^4.0.0",
+    "redux-logger": "^3.0.6",
+    "sequelize": "^4.39.0",
+    "sequelize-cli": "^4.1.1",
+    "socket.io": "^2.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-loader": "^8.0.4",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  }
+}
